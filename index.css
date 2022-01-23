@@ -55,6 +55,7 @@ html{
 
 #brand{
     font-size: x-large;
+    font-weight: bold;
 }
 #about{
     padding: 25px;
