@@ -298,6 +298,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .review .emoji{
     display: block;
@@ -398,7 +400,10 @@ a{
     color:white;
     transition: 0.5s ease-in;
 }
- 
+.review-body{
+    text-align: center;
+    font-size: medium;
+} 
 @media only screen and (max-width: 786px){
     .footer-main{
         flex-direction: column;
