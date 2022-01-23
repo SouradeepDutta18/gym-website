@@ -45,6 +45,7 @@ html{
     color: red;
     font-size: x-large;
     font-weight: bold;
+    text-align: center;
 }
 .card-body{
     color: black;
@@ -71,6 +72,10 @@ html{
     
 }
 a{
+    text-decoration: none;
+    color: white;
+}
+#ext{
     text-decoration: none;
     color: white;
 }
