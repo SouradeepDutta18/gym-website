@@ -6,7 +6,7 @@ var menus=document.querySelectorAll(".menu li")
 open.addEventListener("click",()=>{
     console.log("open clicked");
     menu.classList.toggle("nav-active");
-    body.classList.toggle("scroll-off");
+    body.classList.add("scroll-off");
     close.classList.toggle("close-active");
 
 })
@@ -16,7 +16,7 @@ open.addEventListener("click",()=>{
 menus.forEach((node)=>{
     node.addEventListener("click",()=>{
         menu.classList.toggle("nav-active");
-        body.classList.toggle("scroll-off");
+        body.classList.remove("scroll-off");
         close.classList.toggle("close-active");
     })
 })
